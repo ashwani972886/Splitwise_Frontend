@@ -1,0 +1,225 @@
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+     opacity: 0.35;
+}
+
+-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    opacity: 0.35;
+}
+ ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    opacity: 0.35;
+}
+ :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    opacity: 0.35;
+}
+ input::placeholder {
+    opacity: 0.35;
+}
+
+.create-group-container {
+    padding: 115px;
+    /* display: inline-flex; */
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.create-group-content {
+    /* display: inline-flex; */
+    max-width: 70%;
+}
+
+.create-group-image {
+    height: 200px;
+    width: 200px;
+    margin: 0 25px 0 30px ;
+}
+
+.create-group-form {
+    padding-left: 15px;
+}
+.create-group-form h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #999;
+    font-weight: 600;
+    transform: scaleY(1.2);
+    line-height: 20px;
+}
+
+.create-group-label-form {
+    font-size: 1.5rem;
+    color: black;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.create-group-label-form strong {
+    font-weight: 500;
+}
+
+.group-members-label, .group-type-label {
+    color: #999;
+    font-size: 1.25rem;
+}
+
+.create-group-name {
+    margin: .25rem 0 1rem;
+    outline: 0;
+    border: 0.5px solid rgba(151, 151, 151, 0.499);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 350px;
+    padding: 5px;
+    font-size: 2.25rem;
+}
+
+.create-group-form-control:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.create-group-form-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    margin: .25rem 0 1rem;
+    outline: 0;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border: 0.5px solid #EBEBEB;
+    border-radius: 5px;
+    background-color: #ebebeba5;
+    box-sizing: border-box;
+    width: 70px;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.create-group-form-select:hover, .create-group-form-select:focus {
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-color: #EBEBEB;
+}
+
+.create-group-btn {
+    background-color: #fe6d3c;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.create-group-btn:hover {
+    background-color: #fb612e;
+}
+
+.group-user-avatar {
+    position: relative;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 12px;
+    margin: 0 2px 0 0;
+}
+
+.group-user-avatar-faded {
+    position: relative;
+    top: 4px;
+    transform: rotate(180deg);
+    width: 18px;
+    height: 18px;
+    border-radius: 12px;
+    margin: 0 2px 0 0;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.default-email {
+    font-size: 0.8rem;
+}
+
+.group-members-form-control {   
+    margin: .2rem 0.15rem 0.5rem;
+    outline: 0;
+    border: 0.5px solid rgba(151, 151, 151, 0.499);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.group-member-name {
+    max-width: 110px;
+}
+
+.group-member-email {
+    min-width: 270px;
+    max-width: 270px;
+}
+
+.group-members-form-control:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.member-detail {
+    margin: 0;
+}
+
+.remove-member {
+    background-color: transparent;
+    border: none;
+    color: red;
+    margin-left: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.remove-member:hover {
+    border-bottom: 2px solid red;
+}
+
+.add-group-member {
+    margin-top: 0px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: slateblue;
+}
+
+.add-group-member:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#group-member-section {
+    display: none;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+
+/* Errors */
+
+.create-group-error {
+    background-color: rgba(216, 43, 78, 0.947);
+    color: white;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 75%;
+    /* height: 20px; */
+}

@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@100;300;400;700;900&family=Montserrat:ital, wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.text-side {
+    width: 30%;
+    height: 100%;
+    margin: 45px 170px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 900;
+    line-height: 1.25;
+}
+
+.text-side h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3px;
+}
+
+.text-trips {
+    color: #1CC29F;
+}
+
+.text-housemates {
+    color: #8656CD;
+
+}
+
+.text-partner {
+    color: #A6002F;
+
+}
+
+.text-anyone {
+    color: #1CC29F;
+}
+
+.text-icon {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
+}
+.text-icon li {
+    margin-bottom: -30px;
+}
+
+.icon {
+    padding-top: 1px;
+    margin-bottom: 20px;
+}
+
+.trip-icon {
+    fill: #1CC29F;
+}
+
+.housemates-icon {
+    margin-left: 18px;
+    fill: #8656CD;
+}
+
+.partner-icon {
+    margin-left: 18px;
+    fill: #A6002F;
+}
+
+.anyone-icon {
+    margin-left: 25px;
+    fill: #3B3F43;
+}
+
+.desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.desc-p {
+    margin: 24px 0;
+}
+
+.signUp-btn {
+    padding: 16px 64px;
+}
+
+.app-download-redirect {
+    font-size: 0.875rem;
+    margin: 32px 0px 0px;
+    
+}
+
+.app-download-redirect  a {
+    text-decoration: none;
+    color: black;
+}
+
+.image-side {
+    /* background-color: #8656CD; */
+    width: 30%;
+    margin: 45px 0px;
+    box-sizing: inherit;
+    position: relative;
+}
+
+.image-icon {
+    position: absolute;
+}
+
+.trip-image {
+    width: 140%; 
+    height: 140%;
+    top: 5px;
+    left: 0px;
+}
+
+.housemates-image {
+    top: 20px;
+    left: 10px;
+    width: 140%; 
+    height: 150%;
+}
+
+.partner-image {
+    top: 35px;
+    left: 8px;
+    width: 150%;
+    height: 150%;
+}
+
+.anyone-image {
+    top: 40px;
+    left: 30px;
+    width: 140%; 
+    height: 140%;
+}
+
+.asset {
+    width: 50%;
+   display: inline-block;
+   color: white;
+   text-align: center;
+   font-family: 'Montserrat', 'sans-serif';
+   box-sizing: border-box;
+}
+
+.assets h1 {
+    max-width: 20rem;
+    margin: 35px auto 0;
+    font-size: 20px;
+    transform: scale(1.5);
+}
+
+.assets p {
+    max-width: 15rem;
+    margin: 25px auto 19px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 15px;
+    transform: scale(1.25);
+}
+
+.assets img {
+    margin: 10px auto -4px;
+}
+
+.asset1 {
+    background-color: #3B3F43;
+}
+
+.asset2 {
+    background-color: #1CC2A8;
+}
+
+.asset3 {
+    background-color: #EC7041;
+}
+
+.asset4 {
+    background-color: #3B3F43;
+}
+
+.asset5 {
+    background-color: #8659CA;
+    width: 100%;
+    height: 100%;
+    padding: 20px 50px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: white;
+}
+
+.asset-left {
+    width: 50%;
+    height: 250px;
+    margin: 20px 0;
+}
+
+.asset-left h1 {
+    font-weight: 700;
+    transform: scale(1.5);
+}
+
+.asset-left p {
+    font-family: 'Lato';
+    transform: scale(1.);
+    text-align: center;
+}
+
+.signUp-asset {
+    background-color: rgba(55,59,63,0.3);
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.asset-right {
+    width: 40%;
+    margin: 100px 0 0;
+}
+
+.nine-yards {
+    /* background-color: red; */
+    padding: 70px 100px 70px 100px;
+    /* width: 100%; */
+}
+
+.nine-yards h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.nine-yards ul {
+    list-style: none;
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+.nine-yards ul li {
+    margin-bottom: 20px;
+}
+
+.core-icon {
+    background-image: url(../img/assets/core-feature.svg);
+    width: 21px;
+    height: 21px;
+    min-width: 21px;
+    min-height: 21px;
+}
+
+.pro-icon {
+    background-image: url(../img/assets/pro-feature.svg);
+    width: 18px;
+    height: 22px;
+    min-width: 18px;
+    min-height: 22px;
+}
+
+.core-icon, .pro-icon {
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.features span {
+    font-family: 'Lato';
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.reviews {
+    /* background-color: red; */
+    box-sizing: border-box;
+    width: 100;
+    padding: 0 80px;
+}
+
+.reviews {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.reviews a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Animations */
+
+/* Animate Text here */
+@keyframes animateText {
+    0% {
+        color: #1CC29F;
+    }
+   33.34% {
+        color: #8656CD;
+        content: "with housemates.";
+    }
+    66.68% {
+        color: #A6002F;
+        content: "with your partner.";
+    }
+    100% {
+        color: #1CC29F;
+        content: "with anyone.";
+    }
+}
+
+.animate-text::before {
+    content: "on trips.";
+    animation-name: animateText;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+/* Animate Button here */
+
+@keyframes animateBtn {
+    0% {
+        background-color: #1CC29F;
+    }
+   33.34% {
+        background-color: #8656CD;
+    }
+    66.68% {
+        background-color: #A6002F;
+    }
+    100% {
+        background-color: #1CC29F;
+    }
+}
+
+.animate-btn {
+    animation-name: animateBtn;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-out; */
+    animation-delay: 5s;
+}
+
+/* Animate left icons here */
+
+@keyframes animateLeftPlane {
+    0% {
+        fill-opacity: 1;
+    }
+    33.34% {
+        fill-opacity: 0.5;
+    }
+    66.68% {
+        fill-opacity: 0.5;
+    }
+    100% {
+        fill-opacity: 0.5;
+    }
+}
+
+@keyframes animateLeftHouse {
+    0% {
+        fill-opacity: 0.5;
+    }
+    33.34% {
+        fill-opacity: 1;
+    }
+    66.68% {
+        fill-opacity: 0.5;
+    }
+    100% {
+        fill-opacity: 0.5;
+    }
+}
+
+@keyframes animateLeftHeart {
+    0% {
+        fill-opacity: 0.5;
+    }
+    33.34% {
+        fill-opacity: 0.5;
+    }
+    66.68% {
+        fill-opacity: 1;
+    }
+    100% {
+        fill-opacity: 0.5;
+    }
+}
+
+@keyframes animateLeftStar {
+    0% {
+        fill-opacity: 0.5;
+    }
+    33.34% {
+        fill-opacity: 0.5;
+    }
+    66.68% {
+        fill-opacity: 0.5;
+    }
+    100% {
+        fill-opacity: 1;
+    }
+}
+
+.trip-icon{
+    animation-name: animateLeftPlane;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.housemates-icon{
+    animation-name: animateLeftHouse;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.partner-icon{
+    animation-name: animateLeftHeart;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.anyone-icon{
+    animation-name: animateLeftStar;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+/* Animate right image here */
+
+@keyframes animateRightPlane {
+    0% {
+        visibility: visible;
+    }
+    16.67% {
+        visibility: hidden;
+    }
+    33.34% {
+        visibility: hidden;
+    }
+    66.68% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+
+
+@keyframes animateRightHouse {
+    0% {
+        visibility: hidden;
+    }
+    16.67% {
+        visibility: hidden;
+    }
+    33.34% {
+        visibility: visible;
+    }
+    50.01% {
+        visibility: hidden;
+    }
+    66.68% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes animateRightHeart {
+    0% {
+        visibility: hidden;
+    }
+    33.34% {
+        visibility: hidden;
+    }
+    50.01% {
+        visibility: hidden;
+    }
+    66.68% {
+        visibility: visible;
+    }
+    83.35% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes animateRightStar {
+    0% {
+        visibility: hidden;
+    }
+    33.34% {
+        visibility: hidden;
+    }
+    66.68% {
+        visibility: hidden;
+    }
+    83.35% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+.right-plane {
+    visibility: visible;
+    animation-name: animateRightPlane;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.right-house {
+    visibility: hidden;
+    animation-name: animateRightHouse;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.right-heart {
+    visibility: hidden;
+    animation-name: animateRightHeart;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.right-star {
+    visibility: hidden;
+    animation-name: animateRightStar;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}

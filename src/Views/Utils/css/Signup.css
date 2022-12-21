@@ -1,0 +1,114 @@
+.signup-container {
+    padding: 115px;
+    /* display: inline-flex; */
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.signup-content {
+    /* display: inline-flex; */
+    max-width: 70%;
+}
+
+.signup-image {
+    height: 200px;
+    width: 200px;
+    margin: 0 25px 0 30px ;
+}
+
+.signup-form {
+    padding-left: 15px;
+}
+.signup-form h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #999;
+    font-weight: 600;
+    transform: scaleY(1.2);
+    line-height: 20px;
+}
+
+.signup-label-form {
+    font-size: 20px;
+    color: black;
+}
+
+.signup-label-form strong {
+    font-weight: 500;
+}
+
+.signup-form-control {
+    margin: .25rem 0 1rem;
+    outline: 0;
+    border: 0.5px solid rgba(151, 151, 151, 0.499);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 350px;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.signup-name {
+    font-size: 32px;
+}
+
+.signup-form-control:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.signup-form-select {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: .25rem 0 1rem;
+    outline: 0;
+    border: 0.5px solid rgba(151, 151, 151, 0.499);
+    box-sizing: border-box;
+    width: 300px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.signup-btn {
+    background-color: #fe6d3c;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.signup-btn:hover {
+    background-color: #fb612e;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0088cc;
+    font-weight: 500;
+}
+
+.dontUseUSD {
+    color: grey;
+}
+
+#email, #password, #currency, #dontUseUSD {
+    display: none;
+}
+
+/* Errors */
+
+.signup-error {
+    background-color: rgba(216, 43, 78, 0.947);
+    color: white;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 75%;
+    /* height: 20px; */
+}

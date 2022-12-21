@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@100;300;400;700;900&family=Montserrat:ital, wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.navbar {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100px;
+}
+.nav-container {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+}
+.nav-brand-container {
+    width: 150px;
+    height: 90px;
+    padding: 5px;
+}
+
+.nav-brand {
+    width: 150px;
+    height: 50px;
+}
+
+.btn-container {
+    width: 200px;
+    height: 100px;
+    margin-top: 7px;
+}
+
+/* After Login */
+
+.navbar-after-login {
+    background-color: #5BC5A7;
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    top: 0;
+    font-size: 14px;
+    z-index: 20;
+}
+
+.nav-container-after-login {
+    width: 80%;
+    height: 100%;
+    margin: 1px auto 0;
+}
+
+.nav-brand-white {
+    width: 108px;
+    height: 28px;
+}
+
+.avatar-container {
+    width: 250px;
+    height: 100%;
+    margin: -3px 0 0 0;
+    position: relative;
+}
+
+.avatar:hover {
+    background-color: #43ba98;
+    cursor: pointer;
+}
+
+.avatar:hover .caret {
+    opacity: 1;
+}
+
+.user-profile-btn {
+    text-decoration: none;
+    color: white;
+    line-height: 19px;
+    font-weight: 500;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+}
+
+.user-avatar {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #5BC5A7;
+    border-radius: 12px;
+    margin: 0 4px 0 0;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    border-top: 4px solid #f8f8f8;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    opacity: 0.5;
+    filter: alpha(opacity=30);
+    margin: 3px 0 0 3px;
+}
+
+.avatar-container ul {
+    list-style: none;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.avatar-container ul li a {
+    display: block;
+    padding: 5px 5px 5px 15px;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.avatar-container ul li a:hover {
+    background-color: #1CC2A8;
+    color: white;
+}
+
+.dropdown-menu {
+    display: none;
+    width: 100%;
+    padding: 0 0;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+}

@@ -1,0 +1,115 @@
+.reset-pass-container {
+    /* background-color: yellow; */
+    width: 45%;
+    margin:  10px auto;
+    padding: 10px;
+}
+
+.reset-image {
+    height: 120px;
+    width: 120px;
+    margin: 5px 30px;
+}
+
+.reset-pass-content {
+    padding: 5px;
+    max-width: 300px;
+}
+
+.reset-pass-content h2 {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.reset-pass-content p {
+    margin-top: 2px;
+    padding: 0;
+}
+
+.reset-input {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: 0;
+    border: 0.5px solid rgba(151, 151, 151, 0.499);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.reset-input:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.reset-btn {
+    background-color: rgba(11, 189, 121, 0.726);
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: 0.5px solid rgba(151, 151, 151, 0.499);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: #06af96f9;
+}
+
+.otp-content, .updatePass-content {
+    display: none;
+    max-width: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Errors */
+
+.reset-error {
+    /* display: none; */
+    color: white;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    min-width: 250px;
+    max-width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.reset-cross {
+    background-color: transparent;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.reset-cross:hover {
+    transform: scale(1.5);
+}
+
+.reset-error ul {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 80%;
+}
+
+.pop-error {
+    background-color: rgba(216, 43, 78, 0.947);
+}
+
+.pop-success {
+    background-color: rgba(11, 189, 121, 0.726);
+}

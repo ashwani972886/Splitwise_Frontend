@@ -1,0 +1,140 @@
+form div {
+    margin-bottom: 3px;
+}
+.login-wall {
+    font-family: 'Montserrat';
+    height: 100%;
+    padding: 30px;
+    /* margin-bottom: -80px; */
+}
+
+.login-error{
+    background-color: rgba(216, 43, 78, 0.947);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+.login-card {
+    box-shadow: none;
+    box-sizing: border-box;
+    padding: 50px 65px;
+    height: 100%;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.login-card:hover {
+    transform: none;
+}
+
+.login-text { 
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.label-form {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.form-control {
+    margin: .25rem 0 1rem;
+    outline: 0;
+    border: 0.5px solid rgba(151, 151, 151, 0.499);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 23px;
+}
+
+.form-control:focus {
+    outline: 0;
+    border: 2px solid #1CC29F;
+    caret-color: #1CC29F;
+}
+
+.login-btn {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #12a18b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 0 rgba(55,59,63,0.5);
+}
+
+.login-btn:hover{
+    transform: translate(0, 2px);
+    box-shadow: none;
+}
+
+.forgot-btn {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    color: #12a18b;
+    font-size: 20px;
+}
+
+.login-google p {
+    color: rgba(151, 151, 151, 0.499);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loginBtn-google {
+    display: block;
+    width: 100%;
+}
+
+.loginBtn-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: white;
+    color: #444;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 0px 2px 0px grey;
+    white-space: nowrap;
+  }
+
+  .loginBtn-google:hover {
+    cursor: pointer;
+    transform: translate(0, 2px);
+    box-shadow: none;
+  }
+
+  span.label {
+    font-family: serif;
+    font-weight: normal;
+  }
+
+  span.icon {
+    background: url(../img/utils/g-normal.png) transparent 5px 50% no-repeat;
+    /* display: inline-block;
+    vertical-align: middle; */
+    width: 42px;
+    height: 42px;
+  }
+
+  span.buttonText {
+    /* display: inline-block; */
+    vertical-align: middle;
+    /* padding-left: 42px;
+    padding-right: 42px; */
+    font-size: 14px;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: 'Roboto', sans-serif;
+  }
