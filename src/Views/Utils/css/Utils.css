@@ -97,15 +97,19 @@
 }
 
 .align-items-top {
-    align-items: flex-start;
+    align-items: start;
 }
 
 .align-items-center {
     align-items: center;
 }
 
+.justify-self-center {
+    justify-self: center;
+}
+
 .justify-start {
-    justify-content: flex-start;
+    justify-content: start;
 }
 
 .justify-end {
@@ -143,8 +147,9 @@
 .bg-wall {
     background-image: url(../img/utils/facets.png);
     background-repeat: repeat-x;
-    background-size: 100%;
+    background-size: 100% fit-content;
     background-position: center 0px;
+    flex-wrap: wrap;
 }
 
 .hr {
@@ -162,10 +167,18 @@
     float: right;
 }
 
+.border-right {
+    border-right: 1px solid rgba(153, 153, 153, 0.684);
+}
+
 .no-border {
     border: none !important;
 }
 
 .inline-block {
     display: inline-block;
+}
+
+.none {
+    display: none;
 }

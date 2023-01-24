@@ -1,0 +1,182 @@
+@import '../../../../node_modules/rc-tooltip/assets/bootstrap.css';
+
+.splitOptionsModalPosition {
+    position: fixed;
+    top: 16%;
+    right:21.4%;
+}
+
+.splitOptions-modal {
+    width: 350px;
+}
+
+.split-criteria {
+    margin: 0 5px;
+}
+
+.split-criteria-border {
+    border-bottom: 1px solid linen;
+}
+
+.splitCriteria-info-btn {
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid grey;
+    min-width: 300px;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px 10px;
+    color: black;   
+}
+
+.splitCriteria-info-btn:hover {
+    background-color: rgb(228, 224, 224);
+}
+
+.splitCriteria-info-btn-active, .splitCriteria-info-btn-active:hover {
+    background-color: #5CC5A7;
+}
+
+.split-section {
+    margin: 10px 5px;
+}
+
+.split-option-button-section {
+    margin: 0 10px;
+}
+
+.split-option-btn {
+    font-size: 1.25rem;
+    color: grey;
+}
+
+.split-option-btn:hover {
+    color: black;
+}
+
+.split-amounts-section {
+    margin: 0 2px 0 10px;
+}
+
+.split-amounts-section h2 {
+    text-align: left;
+}
+
+.sharing-users {
+    margin: 15px 0;
+}
+
+.disabled-users {
+    background-color: rgb(228, 224, 224);
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.sharing-user-enable {
+    position: relative;
+    left: -10px;
+}
+
+.sharing-user-avatar {
+    position: relative;
+    top: 1.5px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #5BC5A7;
+    border-radius: 16px;
+    margin: 0 4px 0 0;
+}
+
+.sharing-user-name {
+    position: relative;
+    left: 3px;
+    font-weight: bold;
+    min-width: 180px;
+    text-align: left;
+}
+
+.no-total-share {
+    font-size: 1.1rem;
+    top: 3.5px;
+}
+
+.sharing-user-share {
+    position: relative;
+    top: -7px;
+    left: 0px;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+.split-sharing-amount {
+    position: relative;
+    top: 3px;
+    font-size: 1.1rem;
+}
+
+.sharing-input {
+    width: 35%;
+}
+
+.total-share-amount {
+    margin-right: 10px;
+}
+
+.total-text {
+    margin-left: 10px;
+}
+
+.total-text, .total-amount-text {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.left-amount-text {
+    position: relative;
+    top: -5px;
+    margin-right: 7px;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+.percentage-amount-input {
+    width: 35%;
+    outline: none;
+    border: 1px solid grey;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+    padding: 3px 5px;
+    font-size: 1rem;
+}
+
+.percentage-symbol {
+    background-color: rgb(240, 234, 234);
+    border: 1px solid grey;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0 10px 3px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.shares-amount-input {
+    width: 35%;
+    outline: none;
+    border: 1px solid grey;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+    padding: 3px 5px;
+    font-size: 1rem;
+}
+
+.share-symbol {
+    background-color: rgb(240, 234, 234);
+    border: 1px solid grey;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0 2px 3px;
+    font-size: 1rem;
+    /* font-weight: bold; */
+}

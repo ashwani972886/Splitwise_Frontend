@@ -28,6 +28,7 @@ import splitMan from './utils/split-man.png';
 import splitManBlack from './utils/split-man-black.png';
 import splitManSide from './utils/split-man-side.png';
 import logoWithBg from './utils/logo_with_bg.png';
+import expenseCat from './utils/expense-cat.png';
 
 export {
     logo, 
@@ -35,5 +36,5 @@ export {
     logoOnly,
     footer, twitter, facebook, instagram, googlePlay, appStore,
 
-    logoWhite, avatar, avatarBlue, splitMan, splitManBlack, splitManSide, logoWithBg
+    logoWhite, avatar, avatarBlue, splitMan, splitManBlack, splitManSide, logoWithBg, expenseCat
 };

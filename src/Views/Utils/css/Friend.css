@@ -1,0 +1,197 @@
+.user-avatar-friend {
+    position: relative;
+    top:  4px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #5BC5A7;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.userName-friend {
+    font-size: 1.25rem;
+    max-width: 200px;
+}
+
+.expenseContainer {
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+.sectionButtons {
+    margin: 5px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid linen;
+}
+
+.view-btn {
+    cursor: pointer;
+    background-color: #5BC5A7;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.view-btn-active {
+    background-color: #2c705d;
+}
+
+.monthName {
+    background-color: rgba(243, 242, 242, 0.936);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.friend-expense-info {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.friend-expense-info:hover {
+    background-color: lightgray;
+}
+
+.friend-expense-info:hover .friend-expense-desc {
+    text-decoration: underline;
+}
+
+.friend-expense-info:hover  .payment-detail {
+    text-decoration: underline;
+}
+
+.friend-expense-info:hover .delete-expense-btn {
+    display: block;
+    background-color: lightgray;
+}
+
+.date, .expense-paidBy, .expense-lentTo {
+    color: gray;
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.date span, .expense-paidBy span, .expense-lentTo span {
+    font-size: 1.2rem;
+}
+
+.expenseCatLogo {
+    height: 38px;
+    /* margin-right: 10px; */
+}
+
+.friend-expense-info {
+    cursor: pointer;
+}
+
+.friend-expense-desc, .payment-detail {
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    margin-left: 10px;
+}
+
+.expense-paidBy span {
+    font-weight: bold;
+    color: black;
+}
+
+.expense-lentTo span {
+    font-weight: bold;
+}
+
+.delete-expense-btn {
+    display: none;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: rgb(207, 32, 32);
+    font-size: 1.75rem;
+    padding: 0px;
+}
+
+.delete-expense-btn i {
+    cursor: pointer;
+    margin: 0px;
+}
+
+.delete-expense-btn i:hover {
+    text-decoration: underline;
+}
+
+.expense-detailed-view {
+    display: none;
+    width: 100%;
+    background-color: rgba(239, 232, 232, 0.373);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.basic-details-section {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+}
+
+.basic-expenseCatImg{
+    width: 110px;
+    margin-bottom: 10px;
+}
+
+.basic-details {
+    margin-left: 10px;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.basic-detail-amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.basic-addedBy-detail {
+    font-size: 0.75rem;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.basic-detail-note {
+    background-color: lemonchiffon;
+    border: 0.25px solid rgba(128, 128, 128, 0.438);
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 2px 5px;
+    max-width: 550px;
+}
+
+.basic-detail-note span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.rupee-symbol-container {
+    /* background-color: green; */
+    width: 20px;
+    height: 20px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.rupee-symbol {
+    background-color: green;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.settlement-amount {
+    margin-left: 10px;
+}

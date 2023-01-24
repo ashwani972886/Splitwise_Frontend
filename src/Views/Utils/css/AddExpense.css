@@ -1,0 +1,282 @@
+@import "../../../../node_modules/react-datepicker/src/stylesheets/datepicker.scss";
+
+.darkBG {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .centered {
+    position: fixed;
+    top: 16%;
+    left: 35%;
+    transition: all 0.25s ease-in;
+  }
+
+  .go-left {
+    transform: translateX(-50%) !important;
+  }
+  
+  .modal {
+    width: 500px;
+    height: fit-content;
+    max-height: 550px;
+    overflow-y: auto;
+    background: white;
+    color: white;
+    z-index: 10;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  }
+  
+  .modalHeader {
+    height: 40px;
+    background: #5CC5A7;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 0.25px solid rgb(52, 49, 49);
+  }
+  
+  .heading {
+    margin: 0;
+    padding: 7.5px 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    /* text-align: center; */
+  }
+  
+  .modalContent {
+    /* padding-top: 5px;
+    padding-left: 5px; */
+    font-size: 14px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .modalActions {
+    position: relative;
+    bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-top: 0.25px solid lavender;
+  }
+  
+  .actionsContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .closeBtn {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    background: none;
+    transition: all 0.25s ease;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    align-self: flex-end;
+    /* margin-top: -7px; */
+    /* margin-right: -7px; */
+  }
+  
+  .closeBtn:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+    /* transform: translate(-4px, 4px); */
+    transform: scale(1.15);
+  }
+  
+  .deleteBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 28px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    border: none;
+    color: #fff;
+    background: #ff3e4e;
+    transition: all 0.25s ease;
+  }
+  
+  .deleteBtn:hover {
+    box-shadow: 0 10px 20px -10px rgba(255, 62, 78, 0.6);
+    transform: translateY(-5px);
+    background: #ff3e4e;
+  }
+  
+
+  .saveBtn {
+    margin: 5px 5px 0 5px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 15px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    border: none;
+    color: #fff;
+    background: #1CC2A8;
+    transition: all 0.25s ease;
+  }
+
+  .saveBtn:hover {
+    box-shadow: 0 10px 20px -10px #0d917dc3;
+    /* transform: translateY(-5px); */
+    background: #1ba38f;
+  }
+
+  .cancelBtn {
+    margin: 5px 5px 0 5px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 15px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    border: none;
+    color: #2c3e50;
+    background: #f2eaea;
+    transition: all 0.25s ease;
+  }
+  
+  .cancelBtn:hover {
+    box-shadow: none;
+    transform: none;
+    background: whitesmoke;
+  }
+
+  .with-field {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1rem;
+    border-bottom: 1px solid lavender;
+  }
+
+  .friends-input {
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 3px;
+    width: 100%;
+    max-width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .add-with {
+    display: inline-block;
+    margin-left: 2px;
+    padding: 2px;
+    width: 310px;
+    border: none;
+    appearance: none;
+  }
+
+  .add-with:focus, .expense-input:focus {
+    outline: none;
+  }
+
+  .expense {
+    margin: 30px 30px 10px;
+  }
+
+  .expense-cat-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .expense-cat-img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  .expense-input {
+    font-size: 1.5rem;
+    width: 225px;
+    border: none;
+    border-bottom: 1px dashed grey;
+    margin-bottom: 20px;
+  }
+
+  .expense-amount {
+    font-size: 2rem;
+    text-indent: 25px;
+  }
+
+  .expense-amount::placeholder {
+    margin-left: 2px;
+  }
+
+  .expense-amount-label {
+    position: absolute;
+    margin-left: 2px;
+    font-size: 2rem;
+  }
+
+  .split-detail {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .split-btn {
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid grey;
+    width: fit-content;
+    padding: 2px 5px;
+    color: #1CC2A8;
+  }
+
+  .expense-info {
+    margin-top: 15px;
+  }
+
+  .expense-info-btn  {
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid grey;
+    min-width: 175px;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px 10px;
+    color: black;
+  }
+
+  .expense-info-btn:hover {
+    background-color: rgb(228, 224, 224);
+  }
+
+.date-picker {
+  cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid grey;
+  min-width: 175px;
+  width: fit-content;
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #F0F0F0;
+  color: black;
+  text-align: center;
+}
+
+.react-datepicker {
+  color: white !important;
+}
+
+.react-datepicker__header {
+  background-color: #5CC5A7 !important;
+  color: white !important;
+}

@@ -1,7 +1,10 @@
-import React, {useEffect} from 'react';
+import React, {useContext, useEffect} from 'react';
 import { splitManSide } from '../../Utils/img';
+import ModalContext from '../../../context/modals/ModalContext';
 
 export default function AllExpenses() {
+  const {setIsAddExpenseModalOpen} = useContext(ModalContext);
+  
   useEffect(() => {
     document.title = "All expenses · Splitwise";
   }, []);
@@ -10,8 +13,8 @@ export default function AllExpenses() {
       <div id="top-bar" className='flex justify-between'>
         <span> All expenses </span>
         <div id="actions">
-        <a href='' className="btn add-expense-btn">Add an expense</a>
-        <a href='' className="btn settle-up-btn">Settle up!</a>
+          <button className="btn add-expense-btn" onClick={() => {setIsAddExpenseModalOpen(true)}}>Add an expense</button>
+          <button className="btn settle-up-btn">Settle up!</button>
         </div>
       </div>
 
@@ -22,8 +25,8 @@ export default function AllExpenses() {
         </div>
 
         <div id="dashboard-body">
-          <h2> You have not added any expenses yet </h2>
-          <p>To add a new expense, click the orange "Add an expense" button.</p>
+          <h2> You have not <br />added any expenses yet </h2>
+          <p>To add a new expense, click the <br /> orange "Add an expense" button.</p>
         </div>
       </div>
     </>

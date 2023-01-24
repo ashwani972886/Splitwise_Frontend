@@ -6,17 +6,24 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
 import UserState from './context/user/UserState';
 import GroupState from './context/groups/GroupState';
+import ModalState from './context/modals/ModalState';
+import SettleModalState from './context/modals/SettleModalState';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UserState>
-      <GroupState>
-        <Router>
-          <App />
-        </Router>
-      </GroupState>
-    </UserState>
+    <ModalState>
+      <SettleModalState>
+        <UserState>
+          <GroupState>
+            <Router>
+              <App />
+            </Router>
+          </GroupState>
+        </UserState>
+      </SettleModalState>
+    </ModalState>
   </React.StrictMode>
 );
 

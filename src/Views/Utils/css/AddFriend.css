@@ -1,0 +1,119 @@
+.add-friend-input-section {
+    margin: 10px auto;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.add-friend-input-label {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.add-friend-input {
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    font-size: 1.1rem;
+    width: 90%;
+}
+
+.add-friend-btn {
+    cursor: pointer;
+    background-color: #0c8f7bf1;
+    margin: 5px auto;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.add-friend-btn:hover {
+    background-color: #17a590f1;
+}
+
+.added-friends {
+    position: relative;
+    width: 95%;
+    box-sizing: border-box;
+    margin: 5px auto;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    flex-wrap: wrap;
+}
+
+.friends-to-be-added, .friends-dont-exist {
+    position: absolute;
+    top: 0px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: whitesmoke;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.friends-to-be-added {
+    background-color: green;
+}
+
+.friends-dont-exist {
+    background-color: red;
+}
+
+.added-friend {
+    background-color: lightgray;
+    margin: 5px 2px;
+    width: fit-content;
+    padding: 2px 5px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    font-weight: bold;
+    flex: 1 1 25%;
+}
+
+.added-friend:hover {
+    background-color: darkgray;
+}
+
+.extra-margin {
+    position: relative;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.extra-bottom-margin {
+    margin-bottom: 35px;
+}
+
+.closeIcon {
+    background-color: gray;
+    margin-left: 5px;
+    padding: 1px 5px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+}
+
+.closeIcon:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.myModalAction {
+    margin-top: 30px !important;
+}
+
+.invite-friends-btn {
+    cursor: pointer;
+    background-color: brown;
+    position: absolute;
+    bottom: -1px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: whitesmoke;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

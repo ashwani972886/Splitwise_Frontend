@@ -12,7 +12,7 @@ export default function Home() {
     {/* Animation section start */}
     <main className="container">
       
-      <div className="bg-wall flex">
+      <div className="bg-wall flex justify-around">
 
         {/* Left Context */}
         <div className="text-side flex flex-col">
@@ -94,10 +94,10 @@ export default function Home() {
         </div>
 
         {/* Right Context */}
-        <div className="image-side flex justify-center align-items-center">
+        <div className="image-side">
 
           {/* Right-Plane-Icon  */}
-          <img src= { plane } className="image-icon trip-image right-plane" alt="" />
+          <img src= { plane } className="image-icon trip-image right-plane align-self-center" alt="" />
 
           {/* Right-House-Icon */}
           <img src= { house } className="image-icon housemates-image right-house" alt="" />

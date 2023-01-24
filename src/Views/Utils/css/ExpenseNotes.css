@@ -1,0 +1,14 @@
+.expenseNotesModalPosition {
+    position: fixed;
+    top: 16%;
+    right:25%;
+    transition: all 1s ease-in;
+}
+
+.expenseNotes-modal {
+    width: 300px;
+}
+
+.expense-notes-text {
+    margin: 10px;
+}

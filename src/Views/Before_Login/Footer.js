@@ -60,9 +60,9 @@ export default function Footer() {
                 <a href="https://apps.apple.com/us/app/splitwise/id458023433" target="_blank"><img src= { appStore } alt="Get it on App Store" className='store_badge' /></a>
               </div>
             </div>
+
             {/* Bottom Image */}
             <img className="footer_img" src= { footer } alt="Splitwise" />
-
         </footer> 
       }
     </>
